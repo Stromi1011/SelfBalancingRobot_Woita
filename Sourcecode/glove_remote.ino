@@ -82,10 +82,10 @@ void loop() {
 
   else if(pitch > 15)
   {
-    digitalWrite(outputPin_h, HIGH);
-    Serial.write('r');
-    delay(100);
-    digitalWrite(outputPin_h, LOW);
+    digitalWrite(outputPin_h, HIGH);      //turn led on
+    Serial.write('r');                    //send byte
+    delay(100);                           //delay
+    digitalWrite(outputPin_h, LOW);       //led off
   }
   
   else if(pitch < -15)

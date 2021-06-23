@@ -33,7 +33,7 @@ void loop()
   distance_v=0.017*duration;
 
 
-  digitalWrite(tr2,HIGH);             //distance measurement for side 1
+  digitalWrite(tr2,HIGH);             //distance measurement for side 2
   delayMicroseconds(10);
   digitalWrite(tr2,LOW);
 

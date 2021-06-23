@@ -10,7 +10,6 @@
 
 //********************MPU6050
 MPU6050 mpu;
-volatile double angle = 0;
 const float timeStep = 0.01;
 unsigned long timer = 0;
 
